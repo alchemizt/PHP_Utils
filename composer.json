@@ -1,0 +1,32 @@
+{
+    "name"              : "alchemizt/php_utils",
+    "type"              : "library",
+    "description"       : "Various tools and utilities.",
+    "minimum-stability" : "stable",
+    "keywords"          : [
+    ],
+    "authors"           : [
+        {
+            "name"  : "AlChemizt",
+        }
+    ],
+    "require"           : {
+        "php"        : ">=5.3.10"
+    },
+    "autoload"          : {
+        "files" : [
+            "src/test.php"
+        ],
+        "psr-4" : {
+            "Alchemizt\\PHP_Utils\\" : "src"
+        }
+    },
+    "extra"             : {
+        "branch-alias" : {
+            "dev-master" : "1.x-dev"
+        }
+    },
+    "config"            : {
+        "optimize-autoloader" : true
+    }
+}
